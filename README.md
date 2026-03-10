@@ -1,2 +1,24 @@
-# thrum-stock-man
-Thrum StockMan is a global stock tracker that lets you monitor all stocks side by side. Add any ticker from NASDAQ/NYSE or NSE/BSE &amp; see a price history chart with time spans from 1 week to 5 years. Clean, terminal-style interface with real-time price lookup for any stock worldwide, including Reliance, Apple, NVIDIA, Meta &amp; thousands more.
+# Thrum Stock Man 📈
+
+Global stock tracker — NSE, BSE, NASDAQ, NYSE and more.
+
+## Deploy to Vercel (3 steps)
+
+### Option A — GitHub + Vercel (recommended)
+1. Upload this folder to a new GitHub repo
+2. Go to vercel.com → New Project → Import your repo
+3. Click Deploy — done!
+
+### Option B — Vercel CLI
+```bash
+npm install -g vercel
+cd thrum-stock-man
+npm install
+vercel
+```
+
+## Local development
+```bash
+npm install
+npm run dev
+```
